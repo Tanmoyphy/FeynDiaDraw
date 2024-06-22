@@ -17,6 +17,7 @@ Once this is defined, run the code using `python2 fdraw.py` and compile the outp
 
 ## Run
 *fdraw.pyc* is an encoded python2 file. All the information about particles has been given there. To run it, make sure to have the QGRAF generated output file, then use
+
 ```python2 fdraw.pyc```
 
 ## Limitations
