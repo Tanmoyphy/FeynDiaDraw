@@ -20,6 +20,8 @@ Once this is defined, run the code using `python2 fdraw.py` and compile the outp
 
 ```python2 fdraw.pyc```
 
+This should be compiled, and the QGRAF file should be asked for. Give the file name with the extension. The *diagrams.tex* file will be generated with appropriately formatted LaTex code.
+
 ## Limitations
 
 The code is designed to make loop diagrams look nice. At the moment, it returns a `ValueError` if two vertices are joined by 4 or more propagators.
