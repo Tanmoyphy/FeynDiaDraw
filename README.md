@@ -8,17 +8,15 @@ The program *qgraf-xml-drawer* is a Python program for drawing Feynman diagrams.
 
 ### QGRAF
 The program is provided with a *QGRAF* style file called `xmldraw.sty`. Any set of feynman rules compatible with *QGRAF* can be handled and the output should be put in the package folder to be processed.
-### LuaLaTeX Generation
-The user is required to modify the code to adapt it to their situation.
-* The *QGRAF* output file name should be provided by modifying the variable `INPUTS` in the file `drawer.py`.
-* The particle dictionnary `pt` in `drawer.py` should also be modified to contain the list of particles and anti-particles appearing in the diagrams. Each key in the dictionnary is the name of the particle as defined in *QGRAF* and the associated value should be the associated propagator type as defined in *tikz-feynman*.
 
 Once this is defined, run the code using `python2 fdraw.py` and compile the output using `lualatex main.tex`. The diagrams ared drawn in `main.pdf`.
 
 ## Run
 *fdraw.pyc* is an encoded python2 file. All the information about particles has been given there. To run it, make sure to have the QGRAF generated output file, then use
 
-```python2 fdraw.pyc```
+```
+python2 fdraw.pyc
+```
 
 This should be compiled, and the QGRAF file should be asked for. Give the file name with the extension. The *diagrams.tex* file will be generated with appropriately formatted LaTex code.
 
