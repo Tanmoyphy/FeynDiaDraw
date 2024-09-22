@@ -4,7 +4,7 @@ This code uses [QGRAF](http://cfif.ist.utl.pt/~paulo/qgraf.html) and [tikz-feynm
 
 ## Use
 
-The program *qgraf-xml-drawer* is a Python program for drawing Feynman diagrams. The code translates [QGRAF](http://cfif.ist.utl.pt/~paulo/qgraf.html) diagrams  into a *LuaLaTeX* file using [tikz-feynman](https://github.com/JP-Ellis/tikz-feynman) to draw them after compilation
+The program *FeynDiaDraw* is a Python program for drawing Feynman diagrams. The code translates [QGRAF](http://cfif.ist.utl.pt/~paulo/qgraf.html) diagrams  into a *LuaLaTeX* file using [tikz-feynman](https://github.com/JP-Ellis/tikz-feynman) to draw them after compilation
 
 ### QGRAF
 The program is provided with a *QGRAF* style file called `xmldraw.sty`. Any set of feynman rules compatible with *QGRAF* can be handled and the output should be put in the package folder to be processed.
