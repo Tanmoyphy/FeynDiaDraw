@@ -7,7 +7,7 @@ This code uses [QGRAF](http://cfif.ist.utl.pt/~paulo/qgraf.html) and [tikz-feynm
 The program *FeynDiaDraw* is a Python program for drawing Feynman diagrams. The code translates [QGRAF](http://cfif.ist.utl.pt/~paulo/qgraf.html) diagrams  into a *LuaLaTeX* file using [tikz-feynman](https://github.com/JP-Ellis/tikz-feynman) to draw them after compilation
 
 ### QGRAF
-The program is provided with a *QGRAF* style file called `xmldraw.sty`. Any set of feynman rules compatible with *QGRAF* can be handled and the output should be put in the package folder to be processed.
+The program is provided with a *QGRAF* style file called `xmldraw.sty`. Any set of Feynman rules compatible with *QGRAF* can be handled, and the output should be put in the package folder to be processed.
 
 ## Run
 *fdraw.pyc* is an encoded python2 file. All the information about particles has been given there. To run it, make sure to have the QGRAF generated output file, then use
@@ -16,7 +16,17 @@ The program is provided with a *QGRAF* style file called `xmldraw.sty`. Any set 
 python2 fdraw.pyc
 ```
 
-This should be compiled, and the QGRAF file should be asked for. Give the file name with the extension. The *diagrams.tex* file will be generated with appropriately formatted LaTex code.
+This should be compiled, and the QGRAF file should be asked for. It should return the following interface:
+```
+Welcome to FeynDiaDraw!
+----------------------------------FeynDiaDraw-----------------------------------
+Version: 1.0.1
+Copyright 2024, tanmoy.pati@niser.ac.in
+--------------------------------------------------------------------------------
+Enter the QGRAF output file in xmld format: 
+```
+
+Give the file name with the extension. The *diagrams.tex* file will be generated with appropriately formatted LaTex code.
 
 Next, go to the TeX folder. Change the input file name of the *main.tex* file. For instance 
 
