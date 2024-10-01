@@ -16,7 +16,7 @@ The program is provided with a *QGRAF* style file called `xmldraw.sty`. Any set 
 python2 fdraw.pyc
 ```
 
-This should be compiled, and the QGRAF file should be asked for. It should return the following interface:
+If Python2 is installed appropriately, this should be compiled, and the QGRAF file should be asked for. It will return the following interface:
 ```
 Welcome to FeynDiaDraw!
 ----------------------------------FeynDiaDraw-----------------------------------
@@ -26,7 +26,7 @@ Copyright 2024, tanmoy.pati@niser.ac.in
 Enter the QGRAF output file in xmld format: 
 ```
 
-Give the file name with the extension. The *diagrams.tex* file will be generated with appropriately formatted LaTex code.
+Give the file name with the extension. Next, it will ask for the number of diagrams it will keep in each row. Give an appropriate number like 2,3,... The *diagrams.tex* file will be generated with appropriately formatted LaTex code.
 
 Next, go to the TeX folder. Change the input file name of the *main.tex* file. For instance 
 
