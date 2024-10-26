@@ -42,6 +42,12 @@ lualatex main.tex
 
 There might be some overflow errors, but do not care, these are not fatal error. A pdf will be generated with diagram numbers.
 
+### Particle info and color
+ Particles in the QGRAF file can be specified and colored differently within ```FeynDiaDraw```. All this information has been stored in the ```particles.txt``` file in the ```dep``` folder. Any new particles used in QGRAF can be drawn by adding them to this file. The basic structure of particle data is:
+```
+<particle_name>: <particle_type>, color=<intended_color>
+```
+ 
 ## Limitations
 
 The code is designed to make loop diagrams look nice. At the moment, it returns a `ValueError` if two vertices are joined by 4 or more propagators.
