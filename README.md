@@ -1,4 +1,4 @@
-# QGRAF Diagram Drawer (Requirements: Python2, LuaLatex)
+# QGRAF Diagram Drawer (Requirements: Python, LuaLatex)
 ## Dependencies
 This code uses [QGRAF](http://cfif.ist.utl.pt/~paulo/qgraf.html) and [tikz-feynman](https://github.com/JP-Ellis/tikz-feynman)
 
@@ -16,11 +16,14 @@ The program is provided with a *QGRAF* style file called `xmldraw.sty`. Any set 
 python2 fdraw.pyc
 ```
 
-If Python2 is installed appropriately, this should be compiled, and the QGRAF file should be asked for. It will return the following interface:
+If Python3 is installed appropriately, this should be compiled, and the QGRAF file should be asked for (The program will automatically check for the installed version of Python3). It will return the following interface:
 ```
+Python Version Check:
+Python 3 version is up-to-date.
+
 Welcome to FeynDiaDraw!
 ----------------------------------FeynDiaDraw-----------------------------------
-Version: 1.0.1
+Version: 1.0.5
 Copyright 2024, tanmoy.pati@niser.ac.in
 --------------------------------------------------------------------------------
 Enter the QGRAF output file in xmld format: 
