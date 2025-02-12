@@ -1,0 +1,12 @@
+U: fermion,color=red
+u: anti fermion,color=violet
+D: fermion,color=purple
+d: anti fermion,color=orange
+Wp: charged boson,color=olive
+Wm: charged boson,color=brown
+Z: boson,color=blue
+g: gluon,color=green
+gh: scalar,color=yellow
+GH: scalar,color=cyan
+V: boson,color=teal
+ph: boson,color=teal
