@@ -29,18 +29,13 @@ Copyright 2024, tanmoy.pati@niser.ac.in
 Enter the QGRAF output file in xmld format: 
 ```
 
-Give the file name with the extension. Next, it will ask for the number of diagrams it will keep in each row. Give an appropriate number like 2,3,... The *diagrams.tex* file will be generated with appropriately formatted LaTex code.
+Give the file name with the extension. Next, it will ask for the number of diagrams it will keep in each row. Give an appropriate number like 2,3,... The *<qgraf_file_name>.tex* file will be generated with appropriately formatted LaTex code.
 
-Next, go to the TeX folder. Change the input file name of the *main.tex* file. For instance 
-
-```
-\include{diagrams}
-```
 
 Now, run using *LuaLaTeX* with
 
 ```
-lualatex main.tex
+lualatex <qgraf_file_name>.tex
 ```
 
 There might be some overflow errors, but do not care, these are not fatal error. A pdf will be generated with diagram numbers.
