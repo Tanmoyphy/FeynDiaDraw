@@ -10,7 +10,7 @@ The program *FeynDiaDraw* is a Python program for drawing Feynman diagrams. The 
 The program is provided with a *QGRAF* style file called `xmldraw.sty`. Any set of Feynman rules compatible with *QGRAF* can be handled, and the output should be put in the package folder to be processed.
 
 ## Run
-*fdraw.py* is an encoded python file. All the information about particles has been given there. To run it, make sure to have the QGRAF generated output file, then use
+*fdraw.py* is an python file. All the information about particles has been given there. To run it, make sure to have the QGRAF generated output file, then use
 
 ```
 python3 fdraw.py
