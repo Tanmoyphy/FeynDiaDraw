@@ -13,7 +13,7 @@ The program is provided with a *QGRAF* style file called `xmldraw.sty`. Any set 
 *fdraw.pyc* is an encoded python file. All the information about particles has been given there. To run it, make sure to have the QGRAF generated output file, then use
 
 ```
-python3 fdraw.pyc
+python3 fdraw.py
 ```
 
 If Python3 is installed appropriately, this should be compiled, and the QGRAF file should be asked for (The program will automatically check for the installed version of Python3). It will return the following interface:
